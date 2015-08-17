@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+ Created on : Nov 25, 2014, 8:00:29 PM
+ Author  : webdev
+*/
+
+body{
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font-family: arial, sans-serif, verdana;
+}
+
+a{color: inherit;}
+h1, h2, h3, h4, h5, h6{margin-top:0;padding:0;}
+.g-vrd{
+    background: #e2e7ad; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e2e7ad 0%, #d4dc81 50%, #e2e7ad 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e7ad), color-stop(50%,#d4dc81), color-stop(100%,#e2e7ad)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e2e7ad 0%,#d4dc81 50%,#e2e7ad 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e2e7ad 0%,#d4dc81 50%,#e2e7ad 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e2e7ad 0%,#d4dc81 50%,#e2e7ad 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e2e7ad 0%,#d4dc81 50%,#e2e7ad 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e7ad', endColorstr='#e2e7ad',GradientType=0 ); /* IE6-9 */
+}
+
+.g-vrd-clr{
+    background: #fefefc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fefefc 1%, #ecf0cb 100%, #ecf0cb 101%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fefefc), color-stop(100%,#ecf0cb), color-stop(101%,#ecf0cb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fefefc 1%,#ecf0cb 100%,#ecf0cb 101%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fefefc 1%,#ecf0cb 100%,#ecf0cb 101%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fefefc 1%,#ecf0cb 100%,#ecf0cb 101%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fefefc 1%,#ecf0cb 100%,#ecf0cb 101%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefc', endColorstr='#ecf0cb',GradientType=0 ); /* IE6-9 */
+}
+
+.g-vrd-clr-2{
+    background: #fefefc; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #fefefc 1%, #ecf0cb 47%, #ecf0cb 47%, #fefefc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(1%,#fefefc), color-stop(47%,#ecf0cb), color-stop(47%,#ecf0cb), color-stop(100%,#fefefc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #fefefc 1%,#ecf0cb 47%,#ecf0cb 47%,#fefefc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #fefefc 1%,#ecf0cb 47%,#ecf0cb 47%,#fefefc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #fefefc 1%,#ecf0cb 47%,#ecf0cb 47%,#fefefc 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #fefefc 1%,#ecf0cb 47%,#ecf0cb 47%,#fefefc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefc', endColorstr='#fefefc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.g-cnz{
+    background: #fdfdfe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfe 0%, #bec3d4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfe), color-stop(100%,#bec3d4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fdfdfe 0%,#bec3d4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fdfdfe 0%,#bec3d4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fdfdfe 0%,#bec3d4 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fdfdfe 0%,#bec3d4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfe', endColorstr='#bec3d4',GradientType=0 ); /* IE6-9 */
+}
+
+.fonte-vrd{color: #3E6425;}
+.fonte-azul{color: #ADC2D0;}
+
+.vrd-escuro{background: #D4DC81;}
+.vrd-claro{background: #E2E7AD;}
+.amarelo{background: #FFFFCC;}
+.cnz-escuro{background: #BEC3D4;}
+.cnz-claro{background: #FDFDFE;}
+
+.brd-vrd{border:1px solid #D2DA7A;}
+.brd-cnz{border:1px solid #C0C5D6;}
+
+.conteiner{
+    max-width: 980px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.logo img{margin: auto;display: block;width: 95%;}
+
+.titulo{
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+}
+
+.menu{
+    text-align: center;
+    margin-bottom: 50px;
+    clear: both;
+}
+.menu ul{
+    display: table;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.menu li + li{
+    border-left: 1px solid #D2DA7A;
+}
+.menu a{text-decoration: none;}
+.destaque{
+    width: 71%;
+    min-width: 250px;
+    float: left;
+    margin: auto;
+}
+
+@media all and (max-width: 980px){
+    .destaque,
+    .barra-lateral{
+        float: none !important;
+        width: auto !important;
+    }
+    .barra-lateral{
+        margin-top: 30px !important;
+    }
+    .items{
+        margin: 0 !important;
+    }
+}
+.items{
+    padding: 30px;
+    margin-right: 10px;
+}
+.item + .item{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #FFFFCC;
+}
+.item > h3{
+
+}
+.item > div{
+
+}
+.barra-lateral{
+    width: 25%;
+    margin: auto;
+    min-width: 250px;
+    float: right;
+}
+.barra-lateral > div{
+    padding: 20px;
+}
+.barra-lateral > div + div{
+    margin-top: 30px;
+}
+
+.pesquisa button{
+    border: none;
+    background-color: transparent;
+}
+.newsletter img{
+    vertical-align: middle;
+}
+.comentarios{
+    clear: both;
+}
+.comentario{
+    clear: both;
+}
+.autor-comentario,
+.data-comentario{line-height: 30px;}
+.autor-comentario{
+    float: left;
+}
+.data-comentario{
+    float: right;
+}
+
+.paginacao{
+    clear: both;
+}
+.paginacao ul{
+    list-style: none;
+    padding: 0;
+}
+.paginacao li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.paginacao li.first,
+.paginacao li.last{
+    font-weight: bold;
+}
+
+.contador_comentarios{
+    text-align: right;
+    font-weight: bold;
+}

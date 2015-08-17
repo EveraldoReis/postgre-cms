@@ -1,0 +1,94 @@
+<XMLDiagram>
+  <TDBADiagramController Locked="0">
+    <Elements>
+      <TDBADiagramObject id="1" propertiesclass="TDiagramMetaTableProperties" objectname="USUARIOS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="50" top="60" width="200" height="139"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="2" propertiesclass="TDiagramMetaTableProperties" objectname="POSTAGENS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="40" top="300" width="200" height="153"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="3" propertiesclass="TDiagramMetaTableProperties" objectname="PAGINAS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="320" top="280" width="200" height="139"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="4" propertiesclass="TDiagramMetaTableProperties" objectname="NEWSLETTERS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="40" top="540" width="200" height="111"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="5" propertiesclass="TDiagramMetaTableProperties" objectname="COMENTARIOS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="320" top="60" width="200" height="125"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="6" propertiesclass="TDiagramForeignKeyProperties" objectname="POSTAGENS.POSTAGEM_USUARIO">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="96" top="96" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="130" y="320"/>
+                <Point x="130" y="90"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="7" propertiesclass="TDiagramForeignKeyProperties" objectname="POSTAGENS.POSTAGEM_PAGINA">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="112" top="112" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="150" y="330"/>
+                <Point x="370" y="330"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="8" propertiesclass="TDiagramForeignKeyProperties" objectname="COMENTARIOS.COMENTARIO_USUARIO">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="128" top="128" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="400" y="70"/>
+                <Point x="140" y="70"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="9" propertiesclass="TDiagramForeignKeyProperties" objectname="COMENTARIOS.COMENTARIO_POSTAGEM">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="144" top="144" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="380" y="70"/>
+                <Point x="220" y="310"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+    </Elements>
+    <Surface zoom="100" scrollx="0" scrolly="0"/>
+  </TDBADiagramController>
+</XMLDiagram>
